@@ -20,14 +20,17 @@ nav > p {
 
 section > img {
 
-     float: left;
-    width: 40%; 
+    float: left;
+    width: 30%; 
     padding-left: 30px;
     margin-left: 300px;
+    margin-block-end: 25px;
+    margin-right: 10px;
+   
     
 }
 section > div {
-    float:right;
+    float:center;
     margin-right: 380px;
     width: 10%; 
     padding-left: 100px;
@@ -42,18 +45,39 @@ section > div {
 
 
 
-span > img {
+section div > img {
     margin-top: 1%;
-    margin-left: 184px;
-    margin-left: 300px;
+
+    margin-left: 150px;
+}
+main div > img {
+    position: relative;
+    margin-left: 10px;
+    float: center;
+    left: 20%;
+    /* margin-left: 150px; */
 }
 
 span > p {
     display: inline;
     margin-left: 10px;
+    overflow:scroll;
     
   
 }
+ 
+section p {
+    margin-left : 25px;
+    width: 20%;
+    height: 450px;
+    overflow:scroll;
+}
 
- 
- 
+footer {
+    
+        height: 60px;
+        background-color: #5f5f5f; 
+        max-width:100% ;
+        
+    
+}
