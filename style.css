@@ -18,36 +18,32 @@ nav > p {
 }
 
 
+section > img {
 
-/* li {
-    display: inline;
-    width: 10%;
-    margin-right: 12px;
-} */
-
-section > div {
-    background-color: rgb(244, 248, 238);
      float: left;
-    width: 40%;
-    margin-bottom: 30px;
+    width: 40%; 
     padding-left: 30px;
+    margin-left: 300px;
     
 }
-section > img {
-    float: left;
-    margin-top: 20px;
-   
+section > div {
+    float:right;
+    margin-right: 380px;
+    width: 10%; 
+    padding-left: 100px;
+    margin-left:70px;
+    
 }
 
 
-section button:hover {
-    background: rgb(175, 13, 54);
+ button:hover {
+    background: rgb(245, 94, 132);
 }
 
 
 
 span > img {
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 184px;
     margin-left: 300px;
 }
@@ -55,6 +51,9 @@ span > img {
 span > p {
     display: inline;
     margin-left: 10px;
+    
   
 }
+
+ 
  
